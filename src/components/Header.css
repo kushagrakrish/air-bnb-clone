@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.header_icon {
+  height: 40px;
+  object-fit: contain;
+  margin-left: 60px;
+  /* margin-top: 25px; */
+}
+
+.header_center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+.header_center input {
+  width: 250px;
+  border: none;
+  outline-width: 0;
+  padding: 10px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
