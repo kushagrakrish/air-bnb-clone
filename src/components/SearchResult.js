@@ -14,7 +14,7 @@ const SearchResult = ({
 }) => {
   return (
     <div className='searchResult'>
-      <img src={img} />
+      <img src={img} alt='' />
       <FavoriteBorderRoundedIcon className='searchResult_heart' />
       <div className='searchResult_info'>
         <div className='searchResult_infoTop'>

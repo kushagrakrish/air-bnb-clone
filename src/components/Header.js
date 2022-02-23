@@ -13,6 +13,7 @@ const Header = () => {
         <img
           className='header_icon'
           src='https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg'
+          alt=''
         />
       </Link>
 
